@@ -27,7 +27,7 @@ index 1c1f0c8f23..13138b3339 100644
  
 -      /* toolbar support */
 -      if (! FRAME_UNDECORATED (f))
--        [self createToolbar:f];
+-        [self createToolbar: f];
 -
        /* macOS Sierra automatically enables tabbed windows.  We can't
           allow this to be enabled until it's available on a Free system.
